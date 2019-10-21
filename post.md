@@ -3,4 +3,4 @@
  * 샘플
 [audio](./sample_0_Wavenet.wav)
    
-{% miniaudio 'https://somewhere/themusic.mp3' %}
+{% miniaudio './sample_0_Wavenet.wav' %}
