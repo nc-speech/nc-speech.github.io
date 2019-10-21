@@ -1,4 +1,1 @@
 theme: jekyll-theme-minimal
-group: jekyll_plugins do   # other plugins
-      jekyll-miniaudio # add here
-  end

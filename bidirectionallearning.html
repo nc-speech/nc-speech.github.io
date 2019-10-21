@@ -1,0 +1,35 @@
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Audio samples from "Tacotron: Towards End-to-End Speech Synthesis"</title>
+    <link rel="stylesheet" type="text/css" href="../../stylesheet.css"/>
+    <link rel="shortcut icon" href="../../images/taco.png">
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>Audio samples from "Bidirectional Learning of Non-autoregressive Flow-based Neural Vocoders"</h1>
+      </header>
+    </article>
+
+    <div><b>Paper:</b> <a href="https://arxiv.org/abs/1703.10135">arXiv</a> <a href="http://www.interspeech2017.org/program/technical-program/">Interspeech 2017</a></div>
+    <div><b>Authors:</b> Gyeong-Hoon, Lee Jun-Mo Lee, Young-Ik Kim, Hoon-Young Cho</div>
+    <div><b>Abstract:</b> Recently, non-autoregressive flow-based neural vocoders have been proposed such as WaveGlow or FloWaveNet. These models can generate high-quality speech faster than a model with an autoregressive structure. However, enormous resources are required to obtain a high performance vocoder. In the case of WaveGlow, even if we trained the model using the same hyper parameters and structures provided by the author, it was difficult to achieve the performance of the model reported by the author. In this paper, we propose a novel learning method for non-autoregressive flow-based neural vocoders. The proposed method is a bidirectional learning method that adds learning in the opposite direction to the conventional method using the invertible stucture of flow-based modeles. We first train the vocoder model using maximum log-likelihood loss and retrain the model to minimize the short-time Fourier transform loss between the generated and ground-truth speech. Experimental results proved that a model trained on a single GPU with the proposed learning method delivers better performace than the model trained with the conventional method.</div>
+
+    <div><br/>test.</div>
+
+    <div>
+      <h3>samples for bidirectional learning.</h3>
+      <table>
+        <tr><td class="transcript">“FloWaveNet-back”</td></tr>
+        <tr><td><audio controls><source src="sample_0_Wavenet.wav"></audio></td></tr>
+      </table>
+
+      <table>
+        <tr><td class="transcript">“FloWaveNet-for"</td></tr>
+        <tr><td><audio controls><source src="sample_0_Wavenet.wav"></audio></td></tr>
+      </table>
+    </div>
+  </body>
+</html>
